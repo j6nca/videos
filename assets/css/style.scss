@@ -1,0 +1,75 @@
+---
+---
+
+@import "{{ site.theme }}";
+html{
+    
+}
+header{
+    text-align: center;
+}
+hr{
+    color: #494949;
+    border: 5px;
+}
+#top{
+    height: 0;
+}
+#aboutvideo{
+    width: 38vh;
+}
+#aboutvideopos{
+    text-align: center;
+}
+#logo{
+    width:20vh;
+}
+a{
+    text-decoration: none;
+    color: #494949;
+}
+a:hover{
+    color: #494949;
+    background-color: #fae;
+}
+ul li{
+    display: inline;
+    margin-right: 3vh;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+header ol{
+    text-align: center;
+}
+header ol li{
+    display: block !important;
+    list-style: none;
+    text-align: center !important;
+    float: 0 !important;
+
+}
+header ul{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0;
+    border: 0;
+    width:0;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: 33%;
+    margin-inline-end: auto;
+    padding-inline-start: 0%;
+}
+header ul li{
+    display: block !important;
+    list-style: none;
+    text-align: center !important;
+    margin-right: auto;
+    
+    
+}
+header ul:hover{
+    border-radius: 0;
+}
